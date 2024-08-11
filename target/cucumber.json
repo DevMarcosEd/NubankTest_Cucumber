@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-05T23:13:42.217Z",
+        "line": 6,
+        "name": "Deve executar especificação",
+        "description": "",
+        "id": "aprender-cucumber;deve-executar-especificação",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7896100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que criei o arquivo corretamente",
+            "match": {
+              "location": "AprenderCucumber.queCrieiOArquivoCorretamente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5180300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "executá-lo",
+            "match": {
+              "location": "AprenderCucumber.executáLo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2554500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a especificação deve finalizar com scesso",
+            "match": {
+              "location": "AprenderCucumber.aEspecificaçãoDeveFinalizarComScesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Aprender Cucumber",
+    "description": "\tComo um aluno\n\tEu quero aprender a utilizar Cucumber\n\tPara que eu possa automatizar critérios de aceitação",
+    "id": "aprender-cucumber",
+    "keyword": "Feature",
+    "uri": "classpath:aprender_cucumber.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.099397">
+    <testcase classname="Aprender Cucumber" name="Deve executar especificação" time="0.099397">
+        <system-out><![CDATA[Given que criei o arquivo corretamente......................................passed
+When executá-lo.............................................................passed
+Then a especificação deve finalizar com scesso..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
